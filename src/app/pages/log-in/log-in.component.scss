@@ -1,0 +1,36 @@
+@import '../../../styles/variables.scss';
+.log-in-container{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+}
+
+.img-container {
+    width: 1005;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        max-width: 50%;
+        width: 100%;
+    }
+}
+
+.log-in-form {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.user-container {
+    width: 80%;
+    text-align: center;
+    margin: 40px;
+    display: flex ;
+}
